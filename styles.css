@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: #1F2937;
 }
@@ -46,7 +50,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: none;
+    gap: 0;
     flex: 0 5 40%;
 }
 
@@ -81,10 +85,7 @@ button {
 }
 
 h2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .card {
@@ -124,7 +125,8 @@ h2 {
 footer {
     background-color: #1F2937;
     height: 100px;
-    weight: 100px;
+    width: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
